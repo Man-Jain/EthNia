@@ -18,5 +18,12 @@ The contract is deployed on Ropsten [here](https://raw.githubusercontent.com/Man
 ### `npm install` - Install the dependencies
 ### `npm start` - Run the Local Server
 
+## Infura Email Used
+EMail :- manank321@gmail.com
+
+Also used the IPFS API for the images uploading to IPFS Network.
+
+![image](https://github.com/Man-Jain/EthNia/blob/master/Screenshot_2020-01-09%20Ethereum%20API%20IPFS%20API%20Gateway%20ETH%20Nodes%20as%20a%20Service%20Infura.png)
+
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser
