@@ -1,5 +1,8 @@
 # ETHNIA - Welcome to Ethnicity
 
+_Hosted on IPFS here_ - https://gateway.pinata.cloud/ipfs/QmVLH3jDLR7Ka8CHzKmqLszmdLYGzUMt4hWp43K1db5f1c/
+_Demo Video_ - https://youtu.be/eRszUYtnGgc
+
 Most of the tourists comes to the city , visit a few well known places and departs before even getting to see the real ethnicity and the places which does not have well sung sagas for them. 
 
 A community of travellers, proof of presence on an awesome place, incentivised support from local people and a review system based on reputation, all these combined would give us an opportunity to get all the nooks and corners of the city explored by tourists.
