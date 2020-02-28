@@ -9,7 +9,7 @@ A community of travellers, proof of presence on an awesome place, incentivised s
 
 The Presentation [Presentation here](https://docs.google.com/presentation/d/1NRG9JnlBMy1oT-5tYfwuPytZlMY01GlnujEx9XmLNN8/edit#slide=id.p11) to view it in the browser
 
-The contract is deployed on Ropsten [here](https://raw.githubusercontent.com/Man-Jain/EthNia/master/deployed_contracts.txt)
+The contract is deployed on Matic 0x3c523E5c0Bde9353084B191036488Df912Cb82cC
 
 ## Features :- 
 - See a list of places near you
