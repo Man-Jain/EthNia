@@ -1,8 +1,8 @@
 pragma solidity >=0.4.22 <0.6.0;
-import 'zeppelin/contracts/token/ERC721/ERC721MetadataMintable.sol';
+import 'zeppelin/contracts/token/ERC721/ERC721.sol';
 contract Travel is ERC721MetadataMintable{
 
-    constructor() ERC721Metadata("TraveToken","TVC") public{
+    constructor() ERC721("TraveToken","TVC") public{
 
     }
     struct traveller{
