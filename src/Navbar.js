@@ -13,14 +13,11 @@ import {
   InputGroupAddon,
   InputGroupText,
   FormInput,
-  Collapse
+  Collapse,
 } from "shards-react";
-import {
-  HashRouter,
-  NavLink
-} from "react-router-dom";
+import { HashRouter, NavLink } from "react-router-dom";
 
-import './index.css'
+import "./index.css";
 
 export default class NavExample extends React.Component {
   constructor(props) {
@@ -39,56 +36,73 @@ export default class NavExample extends React.Component {
     this.setState({
       ...this.state,
       ...{
-        collapseOpen: !this.state.collapseOpen
-      }
+        collapseOpen: !this.state.collapseOpen,
+      },
     });
   }
-   navclick(){
-     this.setState({value: Math.random()});
-   }
+  navclick() {
+    this.setState({ value: Math.random() });
+  }
 
   render() {
     return (
       <div>
-      <HashRouter>
-      <Navbar type="dark" theme="primary" expand="md" className="navbar-class">
+        <HashRouter>
+          <Navbar
+            type="dark"
+            theme="primary"
+            expand="md"
+            className="navbar-class"
+          >
+            <NavbarToggler onClick={this.toggleNavbar} />
 
-        <NavbarToggler onClick={this.toggleNavbar} />
+            <Collapse open={this.state.collapseOpen} navbar>
+              <Nav navbar>
+                <NavItem>
+                  <NavLink
+                    onClick={this.navlink}
+                    active
+                    to="/"
+                    className="nav-link"
+                  >
+                    Home
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.navlink}
+                    to="/new-review"
+                    className="nav-link"
+                  >
+                    Add Place
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink onClick={this.navlink} to="/" className="nav-link">
+                    Places Near Me
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    onClick={this.navlink}
+                    to="/new-token"
+                    className="nav-link"
+                  >
+                    Get New Token
+                  </NavLink>
+                </NavItem>
+              </Nav>
 
-        <Collapse open={this.state.collapseOpen} navbar>
-          <Nav navbar>
-            <NavItem>
-              <NavLink onClick={this.navlink} active to="/" className="nav-link">
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink onClick={this.navlink} to="/new-review" className="nav-link">
-              Add Place
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink onClick={this.navlink} to="/places-near" className="nav-link">
-              Places Near Me
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink onClick={this.navlink} to="/new-token" className="nav-link">
-              Get New Token
-              </NavLink>
-            </NavItem>
-          </Nav>
-
-          <Nav navbar className="ml-auto">
-            <NavItem>
-              <NavLink to="/profile" className="nav-link">
-              Daniel
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-      </HashRouter>
+              <Nav navbar className="ml-auto">
+                <NavItem>
+                  <NavLink to="/profile" className="nav-link">
+                    Daniel
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Navbar>
+        </HashRouter>
       </div>
     );
   }
