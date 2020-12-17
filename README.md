@@ -9,7 +9,7 @@ A community of travellers, proof of presence on an awesome place, incentivised s
 
 The Presentation [Presentation here](https://docs.google.com/presentation/d/1NRG9JnlBMy1oT-5tYfwuPytZlMY01GlnujEx9XmLNN8/edit#slide=id.p11) to view it in the browser
 
-The contract is deployed on Binance Chain at 0x0290FB167208Af455bB137780163b7B7a9a10C16
+The contract is deployed on Matic at 0x31d7BCA8ACacf94C429328a2c4b749929826D8Dc
 
 ## Features :-
 

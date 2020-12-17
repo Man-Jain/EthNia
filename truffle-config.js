@@ -30,5 +30,11 @@ module.exports = {
       },
       network_id: 0x61,
     },
+    matic: {
+      provider: function () {
+        return new HDWalletProvider(data, "https://rpc-mumbai.matic.today/");
+      },
+      network_id: 80001,
+    },
   },
 };
